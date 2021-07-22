@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OD form submitted</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="container container-lg">
+        <div class="jumbotron ">
+            <h1 class="display-4">OD submitted</h1>
+            <p class="lead">Good luck in getting it approved</p>
+          </div>
+    </div>
+    <div class="container container-md">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <label >Name:</label> <%= data.name %>
+            </li>
+            <li class="list-group-item">
+                <label >Reg No:</label> <%= data.regno %>
+            </li>
+            <li class="list-group-item">
+                <label >Semester:</label> <%= data.semester %>
+            </li>
+            <li class="list-group-item">
+                <label >OD type:</label>  <%= data.odType %>
+            </li>
+            <li class="list-group-item">
+                <label >Reason:</label>  <%= data.reason %>
+            </li>
+            <li class="list-group-item">
+                <label >From:</label>  <%= data.from %>
+            </li>
+            <li class="list-group-item">
+                <label >To:</label>  <%= data.to %>
+            </li>
+          </ul>
+    </div>
+</body>
+</html>
